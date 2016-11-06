@@ -1,0 +1,20 @@
+<div>
+<table class="table table-striped">
+  <thead>
+    <th>Health Provider</th>
+    <th>Contact Number</th>
+    <th>Book Appointment</th>
+  </thead>
+  <tbody>
+    <tr data-ng-repeat ="doctor in doctorList">
+      <td>{{doctor.name}}</td>
+      <td>{{doctor.mobile}}</td>
+      <td><a data-ng-href="{{doctor.url}}">{{doctor.url}}</a></td>
+    </tr>
+  </tbody>
+</table>
+  <input type="text" name="newName" data-ng-model = "newDoc.name">
+  <input type="number" name="newMobile" data-ng-model = "newDoc.mobile">
+  <input type="text" name="newUrl" data-ng-model = "newDoc.url">
+  <input type="button" data-ng-click="addDoc(newDoc);" value="Add" class="btn">
+</div>

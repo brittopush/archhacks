@@ -1,0 +1,72 @@
+<div>
+  <table class="table table-striped">
+    <tbody>
+
+    <tr>
+      <td>Full Name</td>
+      <td>
+        <input type="text" name="name" id="name" data-ng-model="newUser.name"/>
+      </td>
+    </tr>
+
+    <tr>
+      <td>User Name</td>
+      <td>
+        <input type="text" name="username" id="username" data-ng-model="newUser.username"/>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Password</td>
+      <td>
+        <input type="password" name="passwd" id="passwd" data-ng-model="newUser.passwd"/>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Age</td>
+      <td>
+        <input type="number" name="age" id="age" data-ng-model="newUser.age"/>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Insurance ID</td>
+      <td>
+        <input type="text" name="insuranceID" id="insuranceID" data-ng-model="newUser.insuranceID"/>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Insurance Company</td>
+      <td>
+        <input type="text" name="insuranceCompany" id="insuranceCompany" data-ng-model="newUser.insuranceCompany"/>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Blood Group</td>
+      <td>
+        <input type="text" name="bloodGroup" id="bloodGroup" data-ng-model="newUser.bloodGroup"/>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Medical History</td>
+      <td>
+        <input type="text" name="medHistory" id="medHistory" data-ng-model="newUser.medHistory"/>
+      </td>
+    </tr>
+
+    <tr>
+      <td>Phone Number</td>
+      <td>
+        <input type="number" name="contactNo" id="contactNo" data-ng-model="newUser.contactNo"/>
+      </td>
+    </tr>
+
+    </tbody>
+  </table>
+
+  <input type="button" data-ng-click="addUser(newUser)" value="Register" class="btn-primary">
+</div>
