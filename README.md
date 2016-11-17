@@ -5,3 +5,5 @@ M.E.A.N web application.
 
 
 Our Android version of this application is at www.github.com/harshs07/ArchHacks.
+
+Pfizer's data visualization problem served as an inspiration to this project at ArchHacks'16. Our hackathon submission can be viewed at https://devpost.com/software/pfrecords.
